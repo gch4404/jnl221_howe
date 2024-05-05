@@ -16,7 +16,7 @@
 	text-decoration: overline;
 	text-decoration-color: #98e2C6;
 }
-p {font-family: "Times New Roman"; font-size: 20px
+p {font-family: "Times New Roman"; font-size: 20px;
 }
 h4 {
 	font-style: italic;
@@ -24,13 +24,17 @@ h4 {
 	font-family: 'Georgia', serif;
 }
 h3 {
-	font-size: 30px;
-}
+	font-size: 20 px; font-family: "Times New Roman";
+font-style: normal;}
 
 
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
+p {font-size: 50px;
+
+ }
+ .footer p {background-color: skyblue;}
  .list {
  	float: none;
  	min-width: 90%;
@@ -41,6 +45,6 @@ h3 {
  iframe {
  	min-width: 90%;
  	margin-right: 10px;
+
  }
-}
-img {float:right; margin-right: 5%; margin-left: 5%}
+
